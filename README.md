@@ -1,5 +1,5 @@
 # TapSwap-Clicker
-A Python bot and automated clicker for accumulating TapSwap on Telegram.
+A Python bot and automated clicker for accumulating [TapSwap](https://t.me/tapswap_bot)  on Telegram.
 
 
 ## Prerequisites
