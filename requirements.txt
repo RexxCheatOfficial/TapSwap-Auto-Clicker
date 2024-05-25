@@ -1,0 +1,6 @@
+asyncio
+requests
+telethon
+urllib3
+aiocron
+psutil
