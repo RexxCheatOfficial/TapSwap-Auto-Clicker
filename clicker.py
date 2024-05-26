@@ -493,7 +493,7 @@ To start Tapping , you can use the following commands:
 🟣 `/click off` - Stop collecting TapSwaps
 🟣 `/ping` - Check if the robot is online
 🟣 `/help` - Display help menu
-🟣 `/balance` - Show Tap Swap balance
+🟣 Balance: {balance}\n\n💡 Next Tap in: `{_hours2} hours and {_minutes2} minutes
 🟣 `/stop` - Stop the robot
 🟣 `/url` - WebApp Url
 
@@ -506,10 +506,6 @@ Coded By: @UnPuzzles | Telegram: [Telegram](https://t.me/+n-rBlRjOBpw3ODQ1)
     elif text == '/version':
         await _sendMessage(f"ℹ️ Version: {VERSION}\n\nCoded By: @uPaSKaL | GitHub: [Poryaei](https://github.com/Poryaei)")
     
-    elif text == '/stop':
-        await _sendMessage('👋')
-        await client.disconnect()
-
 
 # ---------------
 session = requests.sessions.Session()
